@@ -15,11 +15,16 @@ This project aims to generate logo emblems in response to user imputs
 ## Installation
 To install the required dependencies, run the following:
 `
-npm i and npm i jest
+npm i
 `
-
+`
+npm i jest
+`
 ## Usage
-
+* The application is initiated when the user inputs "node index.js" to begin the question prompt.
+* All of the questions for making the logo must have valid inputs, otherwise an error message will display.
+* An svg file "logo.svg" will be generated upon completion and can be found in the dist folder.
+* This project uses the npm inquirer, is-css3-color and npm i jest for testing.
 
 ## License
 This repository is operating under the MIT license.

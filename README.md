@@ -26,7 +26,7 @@ npm i jest
 * An svg file "logo.svg" will be generated upon completion and can be found in the dist folder.
 * This project uses the npm inquirer, is-css3-color and npm i jest for testing.
 
-[svg-logo-vid.webm](https://user-images.githubusercontent.com/124109780/235560337-99813e97-69ae-491e-9698-38a9c4b775ce.webm)
+[walkthrough-vid.webm](https://user-images.githubusercontent.com/124109780/236706259-3c203209-b8f5-42e4-bad9-e110cdbc1b8a.webm)
 
 ![svg-logo](https://user-images.githubusercontent.com/124109780/235559818-03d32ffd-d380-47a3-b78a-dae81a292450.png)
 

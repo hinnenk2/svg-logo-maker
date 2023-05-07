@@ -23,6 +23,18 @@ var testCases = [
     expectedErr: new Error('Generated shapes must implement a render() method'),
     shouldRender: true,
   },
+  {
+    desc: 'should add background colour if it is a valid color',
+    input: { logoName: 'Ted', textColour: 'green', bgColour: 'purple' },
+    expectedKey: 'bgColour',
+    expectedValue: 'purple',
+  },
+  {
+    desc: 'should add text colour if it is a valid color',
+    input: { logoName: 'Ted', textColour: 'red', bgColour: 'purple' },
+    expectedKey: 'textColour',
+    expectedValue: 'red',
+  },
 ];
 
 //function for testing shape outputs, displays the associated error message if an input is invalid

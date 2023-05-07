@@ -25,22 +25,22 @@ const questions = [
     {
         type: "input",
         name: "text",
-        message: "Please enter up to three characters:",
+        message: "Please enter your logo's text of no more than 3 characters",
     },
     {
         type: "input",
         name: "text-color",
-        message: "Please enter a color keyword or a hexadecimal number for text color:",
+        message: "Please enter your text Color keyword or a hexadecimal number for the logo's text color",
     },
     {
         type: "input",
         name: "shape",
-        message: "Please enter a color keyword or a hexadecimal number for shape color:",
+        message: "Please enter a Color keyword or a hexadecimal number for the logo's background color:",
     },
     {
         type: "list",
         name: "shape-image",
-        message: "Please choose one of the three shapes",
+        message: "Please choose your logo's shape",
         choices: ["Triangle", "Square", "Circle"],
     },
 ];
